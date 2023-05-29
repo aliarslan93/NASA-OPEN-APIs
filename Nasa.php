@@ -10,9 +10,10 @@ class Nasa
 
     /**
      * Date of Earth Date
-     * @var string
+     * @var $date format "Y-m-d"
+     * 2018-05-05
      */
-    private $date;
+    public $date;
 
     /**
      * API KEY
@@ -30,7 +31,7 @@ class Nasa
     }
 
     /**
-     * @param $date Y-m-d
+     * @param $date "Y-m-d"
      */
     public function setDate($date)
     {
